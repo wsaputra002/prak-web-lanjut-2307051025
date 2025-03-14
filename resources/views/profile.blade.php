@@ -11,6 +11,8 @@
 </head>
 
 <body class="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-400 to-blue-500">
+    
+
     <div
         class="bg-white p-6 rounded-2xl shadow-2xl w-96 text-center transform hover:scale-105 transition-transform duration-300">
 
@@ -23,7 +25,8 @@
             <div class="bg-purple-100 py-3 px-4 rounded-md font-semibold text-purple-800 shadow-md">Nama : <?= $nama ?>
             </div>
             <div class="bg-blue-100 py-3 px-4 rounded-md font-semibold text-blue-800 shadow-md">NPM : <?= $npm ?></div>
-            <div class="bg-green-100 py-3 px-4 rounded-md font-semibold text-green-800 shadow-md">Kelas : <?= $kelas ?>
+            <div class="bg-green-100 py-3 px-4 rounded-md font-semibold text-green-800 shadow-md">Kelas :
+                <?= $nama_kelas ?>
             </div>
         </div>
     </div>
