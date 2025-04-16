@@ -24,7 +24,7 @@
         <div class="space-y-5 text-left px-6 py-3">
             <div class="bg-purple-100 py-3 px-4 rounded-md font-semibold text-purple-800 shadow-md">Nama : <?= $nama ?>
             </div>
-            <div class="bg-blue-100 py-3 px-4 rounded-md font-semibold text-blue-800 shadow-md">NPM : <?= $npm ?></div>
+            <div class="bg-blue-100 py-4 px-4 rounded-md font-semibold text-blue-800 shadow-md">NPM : <?= $npm ?></div>
             <div class="bg-green-100 py-3 px-4 rounded-md font-semibold text-green-800 shadow-md">Kelas :
                 <?= $nama_kelas ?>
             </div>

@@ -19,7 +19,7 @@
             <div>
                 <label for="nama" class="block font-medium text-pink-600">Nama :</label>
                 <input type="text" id="nama" name="nama"
-                    class="w-full border-2 border-purple-300 rounded-lg p-2 mt-1 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-yellow-50">
+                    class="w-full border-3 border-purple-300 rounded-lg p-2 mt-1 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-yellow-50">
                 @error('nama')
                     <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                 @enderror
