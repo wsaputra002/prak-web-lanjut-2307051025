@@ -15,11 +15,14 @@
             <div>
                 <label for="nama" class="block font-semibold text-gray-700">Nama :</label>
                 <input type="text" id="nama" name="nama"
-                    class="w-full border border-gray-300 rounded-lg p-2 mt-1 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:border-blue-500 transition-shadow shadow-sm">
 
-                @foreach ($errors->get('nama') as $msg)
-                    <p class="text-red-500 text-sm mt-1">{{ $msg }}</p>
-                @endforeach
+                  <input type="text" id="nama" name="nama"
+    class="w-full border border-gray-300 rounded-lg p-2 mt-1 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow">
+@error('nama')
+    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+@enderror
+
+
             </div>
 
             <div>
